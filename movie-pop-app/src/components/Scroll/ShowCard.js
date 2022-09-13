@@ -5,7 +5,7 @@ const ShowCard = ({ show, setIdShow }) => {
     setIdShow(show.id);
   };
   return (
-    <div className="card mb-2">
+    <div className="card mb-2 w-50">
         <a onClick={handleClick}>
             <img src={show.image.original} className="card-img-top" alt="..." />
             <div className="card-body">
